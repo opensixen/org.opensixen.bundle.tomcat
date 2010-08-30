@@ -1,2 +1,5 @@
 instructions.configure=\
-org.eclipse.equinox.p2.touchpoint.natives.unzip(source:${installFolder}/plugins/org.opensixen.bundle.tomcat_5.5.1/tomcat.zip,target:${installFolder}/../../../../../);
+org.eclipse.equinox.p2.touchpoint.natives.unzip(source:${installFolder}/plugins/org.opensixen.bundle.tomcat_5.5.1/tomcat.zip,target:${installFolder}/../../../../../);\
+org.eclipse.equinox.p2.touchpoint.natives.unzip(source:${installFolder}/plugins/org.opensixen.bundle.tomcat_5.5.1/root.zip,target:${installFolder}/../../../../../);
+
+
